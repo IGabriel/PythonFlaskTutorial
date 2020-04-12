@@ -7,7 +7,9 @@ $env:FLASK_APP = "hello_app.webapp"\
 python -m flask run
 
 2. Create reqirement.txt\
-pip freeze > requirements.txt
+python -m venv .venv\
+./.venv/Scripts/Activate.ps1\
+pip install -r requirements.txt
 
 3. Install requirement.txt\
 pip install -r requirements.txt
